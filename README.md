@@ -24,5 +24,5 @@ return const MaterialApp(
 > Flutter 2.0
  Means that works with nullsafety.
 
-##LICENSE
+## LICENSE
  MIT
