@@ -625,7 +625,7 @@ class TmMaterialLocalization extends GlobalMaterialLocalizations {
   List<String> get narrowWeekdays => _narrowWeekdays;
 
   @override
-  int get firstDayOfWeekIndex => 0;
+  int get firstDayOfWeekIndex => 1;
 
   @override
   String formatMediumDate(DateTime date) {
