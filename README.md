@@ -20,6 +20,10 @@ return const MaterialApp(
   home: MyHomePage(),
 );
 ```
+## A little note
+This file outdated. I'll update as soon as possible.
+If you see read lines in file, it means that you need to add some fields in it, no need to fill them, just implement methods)
+
 ## Requirements
 > Flutter 2.0
  Means that works with nullsafety.
