@@ -13,7 +13,7 @@ return const MaterialApp(
     GlobalCupertinoLocalizations.delegate,
   ],
   supportedLocales: [
-     const Locale('tm', 'TM'), //Turkmenistan - turkmen language
+     const Locale('tk', 'TM'), //Turkmenistan - turkmen language
      const Locale('ru', 'RU'), 
      const Locale('en', 'GB')  
   ],
@@ -21,8 +21,8 @@ return const MaterialApp(
 );
 ```
 ## A little note
-This file is outdated. I'll update as soon as possible.
-If you see red lines in file, it means that you need to add some fields in it, no need to fill them, just implement methods)
+Actually there are no any 'tm' language code here: https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry.
+Support for Turkmen language is possible only by using 'tk' tag, magic :D.
 
 ## Requirements
 > Flutter 2.0
