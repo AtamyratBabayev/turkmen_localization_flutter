@@ -53,7 +53,7 @@ const tmLocaleDatePatterns = {
 };
 
 const tmDateSymbols = {
-  'NAME': 'tm_TM',
+  'NAME': 'tm',
   'ERAS': <dynamic>[
     'f.Kr.',
     'e.Kr.',
@@ -92,32 +92,32 @@ const tmDateSymbols = {
     'D',
   ],
   'MONTHS': <dynamic>[
-    'ýanwar',
-    'fewral',
-    'mart',
-    'aprel',
-    'maý',
-    'iýun',
-    'iýul',
-    'awgust',
-    'dentýabr',
-    'oktýabr',
-    'noýabr',
-    'dekabr',
+    'Ýanwar',
+    'Fewral',
+    'Mart',
+    'Aprel',
+    'Maý',
+    'Iýun',
+    'Iýul',
+    'Awgust',
+    'Dentýabr',
+    'Oktýabr',
+    'Noýabr',
+    'Dekabr',
   ],
   'STANDALONEMONTHS': <dynamic>[
-    'ýanwar',
-    'fewral',
-    'mart',
-    'aprel',
-    'maý',
-    'iýun',
-    'iýul',
-    'awgust',
-    'dentýabr',
-    'oktýabr',
-    'noýabr',
-    'dekabr',
+    'Ýanwar',
+    'Fewral',
+    'Mart',
+    'Aprel',
+    'Maý',
+    'Iýun',
+    'Iýul',
+    'Awgust',
+    'Dentýabr',
+    'Oktýabr',
+    'Noýabr',
+    'Dekabr',
   ],
   'SHORTMONTHS': <dynamic>[
     'ýan.',
@@ -249,8 +249,8 @@ class _TkMaterialLocalization
   const _TkMaterialLocalization();
 
   @override
-  bool isSupported(Locale locale) =>
-      locale.countryCode == "TM" && locale.languageCode == "tm";
+  bool isSupported(Locale locale) => locale.languageCode == "tk";
+
   @override
   bool shouldReload(
           covariant LocalizationsDelegate<MaterialLocalizations> old) =>
@@ -283,28 +283,17 @@ class _TkMaterialLocalization
 
 class TmMaterialLocalization extends GlobalMaterialLocalizations {
   const TmMaterialLocalization({
-    String localeName = 'tk_TM',
-    required intl.DateFormat fullYearFormat,
-    required intl.DateFormat compactDateFormat,
-    required intl.DateFormat shortDateFormat,
-    required intl.DateFormat mediumDateFormat,
-    required intl.DateFormat longDateFormat,
-    required intl.DateFormat yearMonthFormat,
-    required intl.DateFormat shortMonthDayFormat,
-    required intl.NumberFormat decimalFormat,
-    required intl.NumberFormat twoDigitZeroPaddedFormat,
-  }) : super(
-          localeName: localeName,
-          fullYearFormat: fullYearFormat,
-          compactDateFormat: compactDateFormat,
-          shortDateFormat: shortDateFormat,
-          mediumDateFormat: mediumDateFormat,
-          longDateFormat: longDateFormat,
-          yearMonthFormat: yearMonthFormat,
-          shortMonthDayFormat: shortMonthDayFormat,
-          decimalFormat: decimalFormat,
-          twoDigitZeroPaddedFormat: twoDigitZeroPaddedFormat,
-        );
+    super.localeName = 'tk',
+    required super.fullYearFormat,
+    required super.compactDateFormat,
+    required super.shortDateFormat,
+    required super.mediumDateFormat,
+    required super.longDateFormat,
+    required super.yearMonthFormat,
+    required super.shortMonthDayFormat,
+    required super.decimalFormat,
+    required super.twoDigitZeroPaddedFormat,
+  });
 
   static const LocalizationsDelegate<MaterialLocalizations> delegate =
       _TkMaterialLocalization();
@@ -997,4 +986,8 @@ class TmMaterialLocalization extends GlobalMaterialLocalizations {
   @override
   // TODO: implement keyboardKeyZenkakuHankaku
   String get keyboardKeyZenkakuHankaku => throw UnimplementedError();
+
+  @override
+  // TODO: implement menuBarMenuLabel
+  String get menuBarMenuLabel => throw UnimplementedError();
 }
