@@ -2,6 +2,8 @@
 Unfortunately, I didn't find any support for turkmen language, so I decided to add my own support,
 most of information you could find by going to: https://docs.flutter.dev/development/accessibility-and-localization/internationalization
 
+# Support for this repository is discontinued, see https://github.com/Mickey-A-Mouse/turkmen_localization_support
+
 ## How to use it
 ```
 return const MaterialApp(
